@@ -6,7 +6,7 @@ import com.example.daggerexample_22_1.R
 import javax.inject.Inject
 import javax.inject.Singleton
 
-@Singleton
+
 class ExampleApiService @Inject constructor(
     private val context: Context,
     private val timeMillis:Long
